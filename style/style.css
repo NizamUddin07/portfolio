@@ -11,10 +11,11 @@ body{
     color: #FD6E0A;
 }
 nav{
-    display: flex;
+    display: flex;  
     text-decoration: none;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 nav ul{
@@ -39,4 +40,16 @@ nav li a{
     color: white;
     padding: 15px 35px;
    
+}
+
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-picture{
+    width: 500px;
 }
